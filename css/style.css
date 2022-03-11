@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+header nav {
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+title {
+    width: 234px;
+    height: 80px;
+    left: 20px;
+    top: 10px;
+}
+
+section {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sectionContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.entregador {
+    width: 50%;
+    height: 640px;
+    background-image: url("../img/delivery.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-radius: 5px;
+
+}
+
+.entregador h2 {
+    width: 510px;
+    height: 350px;
+    text-align: center;
+
+    color: #FC200C;
+
+}
+
+.entregador span {
+    color: white;
+}
+
+.menu {
+    border-radius: 5px;
+    width: 491px;
+    height: 350px;
+    left: 839px;
+    top: 267px;
+
+
+}
+
+.img {
+    width: 1024px;
+    height: 150px;
+    left: 839px;
+    top: 267px;
+}
+
+.tituloCardapio {
+    width: 205px;
+    height: 28px;
+    left: 674px;
+    top: 161px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FC200C;
+
+}
+
+.sabores h3 {
+    width: 110.44px;
+    height: 23px;
+    left: 583px;
+    top: 247px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+
+    color: #222222;
+
+}
+
+.sabores ol {
+    width: 146px;
+    height: 19px;
+    left: 565px;
+    top: 290px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
