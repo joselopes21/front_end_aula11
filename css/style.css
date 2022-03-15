@@ -87,11 +87,17 @@ section {
 
 }
 
-.img {
-    width: 1024px;
-    height: 150px;
-    left: 839px;
-    top: 267px;
+.sabores {
+    display: block;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 25px;
+}
+
+.imgMenu {
+    margin-left: 350px;
+
 }
 
 .tituloCardapio {
@@ -144,13 +150,23 @@ section {
     color: #222222;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 150px;
-    background-color: black;
+footer {
+    background-color: #222222;
+
+}
+
+.footermenu {
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+    width: 212px;
+    height: 80px;
+    left: 770px;
+    top: 555px;
+}
+
+.footerlogo {
+    margin-left: 1000px;
 }
